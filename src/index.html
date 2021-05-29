@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="genwrapper">
+        <input type="radio" name="lenght" value="10" checked /> 10 chars<br />
+        <input type="radio" name="lenght" value="12" /> 12 chars<br />
+        <input type="checkbox" checked name="simbols" /> With simbols<br />
+        <p class="generated-text"></p>
+        <input
+          class="button"
+          type="button"
+          name="submit"
+          value="Generate and copy to clipboard"
+        />
+      </div>
+    </div>
+  </body>
+  <script src="../dist/bundle.js"></script>
+</html>
