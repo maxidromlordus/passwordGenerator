@@ -14,13 +14,19 @@
 }
 
 .button {
-  margin-top: 170px;
+  margin-top: 110px;
   width: 300px;
   background-color: beige;
   font-size: 20px;
 }
 
 .generated-text {
+  padding: 5px;
   color: azure;
-  font-size: 20px;
+  font-size: 25px;
+  margin-left: 30px;
+  border: solid;
+  width: 200px;
+  height: 28px;
+  background-color: black;
 }
